@@ -1,0 +1,87 @@
+body {
+    font-family: arial;
+    background: #aac9f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-card {
+    background: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.favorites-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.favorites-section ul {
+    padding-left: 20px;
+}
+
+.favorites-section li {
+    cursor: pointer;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+
+/* delete starting*/
+.favorites-section li:hover{
+    background: #e4e7eb;
+}
+
+
+.delete-btn{
+    background: #ff7675;
+    color:white;
+    border:none;
+    border-radius:3px;
+    padding:2px 6px;
+    cursor:pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover{
+    background: #d63031;
+}
